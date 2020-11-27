@@ -1,0 +1,11 @@
+plugins {
+    // Apply the java plugin to add support for Java
+    id 'java'
+}
+
+group = 'neerajm.cli'
+version = '1.0'
+description = 'java based cli sftp client'
+java.sourceCompatibility = JavaVersion.VERSION_1_7
+java.targetCompatibility = JavaVersion.VERSION_1_7
+

@@ -65,7 +65,7 @@ public abstract class CLI {
     public abstract boolean opts(String arg, ArrayList<String> value);
     public static void help(){
         try {
-            InputStream in = CLI.class.getClassLoader().getResourceAsStream("res/help.txt");
+            InputStream in = CLI.class.getClassLoader().getResourceAsStream("help.txt");
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
             String line;
             while ((line = br.readLine()) != null) {
